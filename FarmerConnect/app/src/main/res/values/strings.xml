@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">FarmerConnect</string>
+
+
+    //Headings
+    <string name="heading_one">QR CODE SCANNER </string>
+    <string name="heading_two">DONATING TO FARMERS</string>
+    <string name="heading_three">DATA SECURITY</string>
+
+    // Settings_page_string_values
+
+    <string name="privacy">Privacy &amp; Security</string>
+
+    //Description
+    <string name="desc_one">Once the QR code is scanned, the app can extract the data from the QR code, which could include the farmer\'s unique ID or other relevant information.</string>
+    <string name="desc_two">Once the QR code is scanned, the app can extract the data from the QR code, which could include the farmer\'s unique ID or other relevant information.</string>
+    <string name="desc_three">Once the QR code is scanned, the app can extract the data from the QR code, which could include the farmer\'s unique ID or other relevant information.</string>
+
+
+    <string name="loading">Loading?</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="msg_hello_welcome_b">Hello,Welcome back to your account</string>
+    <string name="msg_total_no_of_b">Total NO.of
+Bags</string>
+    <string name="lbl_m">M</string>
+    <string name="lbl_50_years">50 years</string>
+    <string name="lbl_pay_confirm">Pay&amp;Confirm</string>
+    <string name="msg_donation_histor2">Donation History</string>
+    <string name="lbl_next">Next</string>
+    <string name="lbl_no_rain">No Rain</string>
+    <string name="msg_donation_histor">Donation
+History</string>
+    <string name="lbl_email_address">Email Address</string>
+    <string name="lbl_s">S</string>
+    <string name="lbl_phone">Phone</string>
+    <string name="lbl_home">Home</string>
+    <string name="lbl_donation">Donation</string>
+    <string name="lbl_300">300</string>
+    <string name="msg_shivnadhar_gmai">shivnadhar@gmail.com</string>
+    <string name="lbl_login_account">Login Account</string>
+    <string name="lbl_2002">$200</string>
+    <string name="lbl_phone_number">Phone Number</string>
+    <string name="msg_rice_cultivatio">Rice cultivation is well-suited to countries and regions with low labor costs and high rainfall, as it is labor-intensive to cultivate and requires ample water.</string>
+    <string name="lbl_rice">Rice</string>
+    <string name="lbl_log_out">Log Out</string>
+    <string name="lbl_max">Max</string>
+    <string name="lbl_information">Information</string>
+    <string name="lbl_bag_of_grain_id">Bag of grain ID</string>
+    <string name="lbl_data_security">DATA SECURITY</string>
+    <string name="lbl_50">50</string>
+    <string name="msg_harvesting_prac">Harvesting practices</string>
+    <string name="lbl_919876543210">+919876543210</string>
+    <string name="lbl_features">Features</string>
+    <string name="lbl_7021543413_ybl">7021543413@ybl</string>
+    <string name="lbl_male">Male</string>
+    <string name="lbl_consumer_name">Consumer Name</string>
+    <string name="lbl_wind">Wind</string>
+    <string name="msg_harvesting_is_t">Harvesting is the process of collecting the mature rice crop from the field. Paddy harvesting activities include reaping, stacking, handling, threshing, cleaning, and hauling.It is important to apply good harvesting methods to be able to maximize grain yield, and minimize grain damage and quality deterioration.</string>
+    <string name="lbl_location">Location</string>
+    <string name="lbl_hello">Hello!</string>
+    <string name="msg_mr_subahash_pal">Mr.Subahash palekar</string>
+    <string name="lbl_min">Min</string>
+    <string name="lbl_3_may_2023">3 May 2023</string>
+    <string name="lbl_edit_profile">Edit profile</string>
+    <string name="lbl_email_id">Email ID</string>
+    <string name="lbl_250">250</string>
+    <string name="lbl_select_amount">Select Amount</string>
+    <string name="lbl_qr_code_scanner">QR CODE SCANNER </string>
+    <string name="lbl_gender">Gender</string>
+    <string name="lbl_43">43%</string>
+    <string name="msg_create_new_acco"> Create New Account</string>
+    <string name="lbl_request_otp">Request OTP</string>
+    <string name="lbl_34_c">34 C</string>
+    <string name="lbl_google">Google</string>
+    <string name="lbl_production_date">Production date</string>
+    <string name="lbl_amount">Amount</string>
+    <string name="lbl_otp">OTP</string>
+    <string name="lbl_qr_code">QR Code</string>
+    <string name="lbl_upi">UPI</string>
+    <string name="msg_not_registered">Not registered yet? Create New Account</string>
+    <string name="lbl_subash_palekar">Subash palekar</string>
+    <string name="lbl_donate_to">Donate to</string>
+    <string name="lbl_birth_date">Birth Date</string>
+    <string name="lbl_filters">Filters</string>
+    <string name="lbl_murthy">Murthy</string>
+    <string name="lbl_30_04_2022">30-04-2022</string>
+    <string name="lbl_13_may_2023">13 May 2023</string>
+    <string name="lbl_select_payment">Select Payment</string>
+    <string name="lbl_bag_of_rice">Bag of rice</string>
+    <string name="lbl_1_day_ago"> 1 day ago</string>
+    <string name="msg_your_account_ha">Your account has been verified Successfully</string>
+    <string name="msg_krishna_distric">Krishna district,AP</string>
+    <string name="lbl_thank_you">THANK YOU</string>
+    <string name="lbl_donate">Donate</string>
+    <string name="msg_is_from_gangapu"> is from Gangapur village, Jharasangam mandal, in Krishna district of Andhrapradesh State, India. He studied up to the 5th standard. He has a family that includes two sons and three daughters and he owns 13 acres of dryland and 5 acres of irrigated land. He grows Paddy, sugarcane, chickpea, red gram, jowar, bajra, foxtail millet and finger millet.
+
+He believes that the beauty of the mixed farming system is that he gets most of the ration from his own farm. He has been farming since childhood, and he wants to continue with the integrated farming system in a contemporary situation, where loss in one crop can be substituted with the other enterprise. </string>
+    <string name="lbl_age">Age</string>
+    <string name="lbl_100">100</string>
+    <string name="lbl_suryanarayana">Suryanarayana</string>
+    <string name="lbl_humidity">Humidity</string>
+    <string name="lbl_15_kg">15 KG</string>
+    <string name="msg_we_have_sent_yo2">We have sent you the code verification to your email</string>
+    <string name="msg_once_the_qr_cod">"Once the QR code is scanned, the app can extract the data from the QR code, which could include the farmer's unique ID or other relevant information."</string>
+    <string name="lbl_502">$50</string>
+    <string name="lbl_vate">VATE</string>
+    <string name="lbl_scanner">Scanner</string>
+    <string name="lbl_transaction">Transaction</string>
+    <string name="lbl_rain">Rain</string>
+    <string name="lbl_quality">Quality</string>
+    <string name="lbl_91">+91</string>
+    <string name="msg_having_an_accou">Having an account then Login With Us!</string>
+    <string name="lbl_4_0">4.0</string>
+    <string name="lbl_test">test</string>
+    <string name="lbl_12">******12</string>
+    <string name="msg_we_have_sent_yo">We have sent you the code verification to your Mobile Number</string>
+    <string name="lbl_name"> Name</string>
+    <string name="lbl_14_02_1999">14.02.1999</string>
+    <string name="lbl_donations">Donations</string>
+    <string name="lbl_1502">$150</string>
+    <string name="lbl_private">PRIVATE</string>
+    <string name="lbl_quantity">Quantity</string>
+    <string name="lbl_skip">Skip</string>
+    <string name="lbl_profile">Profile</string>
+    <string name="lbl_name2">Name</string>
+    <string name="msg_enter_price_man">Enter Price Manually</string>
+    <string name="lbl_register">REGISTER</string>
+    <string name="lbl_3002">$300</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="lbl_shiv_nadhar">Shiv Nadhar</string>
+    <string name="lbl_13_ybl">*******13@ybl</string>
+    <string name="msg_remarks_optiona">REMARKS(Optional)</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_done">Done</string>
+    <string name="msg_donating_to_far">DONATING TO FARMERS</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_dashboard">Dashboard</string>
+    <string name="lbl_9_4km_hr">9.4km/hr</string>
+    <string name="msg_get_started_wit">GET STARTED WITH US</string>
+    <string name="lbl_verified">VERIFIED </string>
+    <string name="msg_otp_verificatio">OTP VERIFICATION</string>
+    <string name="lbl_200">200</string>
+    <string name="lbl_2502">$250</string>
+    <string name="lbl_login">LOGIN</string>
+    <string name="lbl_donated_to">Donated  to</string>
+    <string name="msg_farming_looks_m">Farming Looks might easy when your plow is a pencil, and you\u2019re thousand miles from field. The ultimate goal of a farming is not growing crops but cultivation and perfection of human beings</string>
+    <string name="lbl_lakshman_rao">Lakshman Rao</string>
+    <string name="msg_farmer_unique_i">Farmer Unique ID</string>
+    <string name="msg_scan_to_get_det">Scan to get details</string>
+    <string name="lbl_pri">PRI</string>
+    <string name="msg_not_registered2">Not registered yet?</string>
+    <string name="lbl_pay">PAY</string>
+    <string name="msg_we_appreciate_o">We Appreciate on what
+you did</string>
+    <string name="msg_you_are_success">YOU ARE SUCCESSFULLY REGISTERD</string>
+    <string name="lbl_3_hours_ago">3 hours ago</string>
+    <string name="lbl_farmer_details">Farmer details</string>
+    <string name="lbl_your_activity">Your Activity</string>
+    <string name="lbl_settings">Settings</string>
+    <string name="lbl_or">or </string>
+    <string name="msg_shivnadhar222_g">shivnadhar222@gmail.com</string>
+    <string name="lbl_help">Help</string>
+    <string name="msg_or_sign_in_with">or sign in with google</string>
+    <string name="lbl_1002">$100</string>
+    <string name="lbl_9876543210">9876543210</string>
+    <string name="lbl_150">150</string>
+    <string name="msg_total_no_of_f">Total NO.of
+Farmers</string>
+    <string name="msg_please_enter_valid_email">Please enter valid email</string>
+    <string name="msg_please_enter_valid_phone_nu">Please enter valid phone number</string>
+    <string name="msg_please_enter_valid_text">Please enter valid text</string>
+    <string name="msg_this_contact_has_no_phone_nu">This contact has no phone number</string>
+    <string name="msg_camera_storage_permission">This Application need permission\n1.Camera permission to capture the image.\n2.Storage Access permission to save the captured image.</string>
+    <string name="lbl_camera">Camera</string>
+    <string name="lbl_galler">Gallery</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <string name="open">Open nav</string>
+    <string name="close">Close nav</string>
+
+
+
+    <string name="lbl_locatio">Location</string>
+    <string name="msg_state_mahara">
+ State  : Maharashtra</string>
+    <string name="msg_name_bhalubha">Name : Bhalubhau Ghode \n
+District :Ahmednagar \n
+ State  : Maharashtra</string>
+    <string name="msg_name_bhalubha2">Name : Bhalubhau Ghode
+District :Ahmednagar</string>
+    <string name="lbl_details">Details</string>
+    <string name="lbl_more_info">More info...</string>
+    <string name="lbl_gallery">Gallery</string>
+    <string name="msg_millets_have_li">"Millets have literally been Bhalubhau Kisan Ghode's life. On five acres of his rented property, the 45-year-old tribal farmer from the Jahagirdarwadi hamlet in the Akole taluka of Maharashtra's Ahmednagar district plants seven distinct types of millets. He has travelled far and wide to gather different sorts of millets.
+   Ghode got introduced to millets at the age of 14 that too quite accidently. At that time paddy had taken place of millets, which almost got vanished from the village. "My father used to feed our draught animals finger millets (often referred to as Nanchni) during the monsoon to aid them in navigating the difficult terrains.
+    Also, this served as a staple food for farm labourers who had to work in the mud and torrential rain. Ghode became more interested in finger millets when he learned that they had the potential to maintain the well-being of both the livestock and the workers."</string>
+    <string name="msg_https_youtu_b">https://youtu.be/9dCrJJSamCo</string>
+
+
+</resources>

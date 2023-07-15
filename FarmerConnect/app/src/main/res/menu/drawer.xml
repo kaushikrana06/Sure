@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    tools:showIn="navigation_view">
+<group android:checkableBehavior="single">
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/img_settings_teal_400"
+        android:title="Settings"
+        />
+    <item android:id="@+id/donationhis"
+        android:icon="@drawable/img_vector_teal_400"
+        android:title="@string/msg_donation_histor"/>
+
+    <item android:id="@+id/help"
+        android:icon="@drawable/img_link"
+        android:title="@string/lbl_help"/>
+
+    <item android:id="@+id/info"
+        android:icon="@drawable/img_question"
+        android:title="@string/lbl_information"/>
+
+    <item android:id="@+id/logout"
+        android:icon="@drawable/img_vector_teal_400_20x19"
+        android:title="@string/lbl_log_out"/>
+
+</group>
+
+</menu>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Account"
+        android:icon="@drawable/your_account">
+        <Preference
+            android:key="setting_dashboard"
+            android:title="Dashboard"/>
+
+        <Preference
+            android:key="setting_privacy_policy"
+            android:title="@string/privacy"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Notification"
+        android:icon="@drawable/notify">
+
+        <SwitchPreferenceCompat
+            android:key="notification"
+            android:title="App Notifications"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="More"
+        android:icon="@drawable/baseline_more_24">
+
+        <Preference
+            android:key="selectLanguage"
+            android:title="Language"/>
+
+        <SwitchPreferenceCompat
+            android:key="select_theme"
+            android:title="Dark Theme"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Help"
+        android:icon="@drawable/baseline_help_24">
+        <Preference
+            android:key="ask_for_help"
+            android:title="Help centre"/>
+        <Preference
+            android:key="contact_number"
+            android:title="Contact us"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference android:key="send_invite"
+            android:icon="@drawable/baseline_share_24"
+            android:title="Invite your friend"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference android:key="updates"
+            android:icon="@drawable/baseline_update_24"
+            android:title="Check for Updates"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference android:key="about_us"
+            android:title="About Us"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference android:key="logoutUser"
+            android:title="Logout"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

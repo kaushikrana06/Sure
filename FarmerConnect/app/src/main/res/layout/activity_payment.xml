@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PaymentActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        app:cardElevation="50dp"
+        app:cardBackgroundColor="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/back_btn"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/arrow_back">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="Donate"
+                android:textColor="@color/black"
+                android:textSize="28dp"
+                android:textStyle="bold">
+            </TextView>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/donation_top_bg"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp">
+            </ImageView>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:hint="name here"
+                android:textColor="@color/black"
+                android:textSize="32dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Amount in Rupees"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="30dp">
+        </TextView>
+
+
+
+
+        <EditText
+            android:id="@+id/amount_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Price Manually"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:textSize="22sp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/price_bg">
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+        </TextView>
+
+        <RadioButton
+            android:id="@+id/upi_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/upi_bg"
+            android:text="UPI">
+        </RadioButton>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/upi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pay_btn_bg"
+            android:layout_marginTop="30dp"
+            android:text="Pay &amp; Confirm">
+        </androidx.appcompat.widget.AppCompatButton>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/paytm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay with Paytm"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/gpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay with Google Pay"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/phonepe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay with PhonePe"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/bhim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay with BHIM UPI"
+        android:visibility="invisible" />
+
+
+
+</LinearLayout>
